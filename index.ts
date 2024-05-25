@@ -1,8 +1,5 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
 
-/**
- * @todo initialValue
- */
 export function createContext(defaultValue) {
   const id = crypto.randomUUID();
 
